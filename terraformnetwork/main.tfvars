@@ -49,17 +49,5 @@ jumpboxnsg=  {
 
 Vnet = "Vnet"
 nsgagent = "agnetnsg"
-Vm = {
-  agent1 = {
-    name = "agnet1"
-    nicname = "agent1-nic"
-    Ipname = "agnet1-ip"
-    Vmsize = "Standard_D1_v2"
-    diskname = "agent1-OSDisk"
-    disksku = "Standard_LRS"
-    publisher = "Canonical"
-    offer =  "UbuntuServer"
-    sku = "16.04-LTS"
-  }
-}
+
 
